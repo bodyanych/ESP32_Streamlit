@@ -13,7 +13,7 @@ st.write(f"You selected: {x}")
 
 # Real-time chart
 st.subheader("Live Data Chart")
-chart_data = pd.DataFrame(np.random.randn(20, 3), columns=["A", "B", "C", "D"])
+chart_data = pd.DataFrame(np.random.randn(20, 3), columns=["A", "B", "C"])
 st.line_chart(chart_data)
 
 # File uploader
